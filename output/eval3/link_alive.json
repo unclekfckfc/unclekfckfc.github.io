@@ -1,0 +1,922 @@
+{
+ "http://aisengtech.com/weekly-venture-capital-funding-ai-robotics-infrastructure": {
+  "code": "TimeoutError",
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "http://korea.people.com.cn/n1/2026/1008/c407366-40810698.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "http://mp.weixin.qq.com/s?__biz=MzU4NTExMzQ0OQ==&mid=2247484161&idx=1&sn=02f01e7cf55353213e83a34ed028d681&chksm=fcaca19828965a3df1fda25b62820c14d52d8ddf48cdc7295264518723b1501ba5fb007145c8#rd": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "http://mp.weixin.qq.com/s?__biz=Mzg4Nzg0MTIwMA==&mid=2247485959&idx=1&sn=7c9840665a2092459e745ec8b3c48c43&chksm=ce347d682de395d6d966a733875d94e5670fbf06d003f68c9ff5bc5db64aedc6ed3eee45d233#rd": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "http://mp.weixin.qq.com/s?__biz=MzkzMzkwNzk4Nw==&mid=2247486152&idx=1&sn=6473d9b423def433438154c863e9ac51&chksm=c37146f33877a1f1d2024e1fce481894645e95e9f6a2595e4e38a1afbe7265ec7e43aae40305#rd": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "http://mp.weixin.qq.com/s?__biz=MzkzNDMzMDQ4OA==&mid=2247498326&idx=1&sn=7fe1d27a1a7b3bdba486c8e8bdf17d5f&chksm=c3324a28a697154b42a4807ecff5d0009a5a1481974708947b23c78e362eb4442fed68cc246b#rd": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "http://scitech.ce.cn/sy/zx/202611/t20261104_3283569.shtml": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "http://scitech.ce.cn/sy/zx/202611/t20261118_3298302.shtml": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "http://sd.news.cn/20261015/248f17d7c6474b8287cf0a98ec7320c4/c.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "http://www.chinaview.cn/northamerica/20261117/66e6356256fc4bf1a5f44e9523065588/c.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "http://www.pswp.cn/pingmian/94348.shtml": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://abcnews.com/Technology/wireStory/3-charged-scheme-ai-impersonate-ceos-attorneys-steal-137899167": {
+  "code": 404,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://ah.people.com.cn/n2/2026/1114/c358428-41750822.html": {
+  "code": "URLError",
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://app.xinhuanet.com/news/article.html?articleId=20261110c5cd7b8325484add81e97d4b71ffb5d8": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2608.19741": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2609.12584": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2610.10409": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2610.12445": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2610.14688": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2610.18868": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2610.19128": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2610.20776": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2610.22298": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2610.22333": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2610.22496": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2610.23959": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2610.27911": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2610.30162": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2610.34735": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2610.37732": {
+  "code": "URLError",
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2610.37826": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2610.41172": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2611.02667": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2611.05358": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2611.10110": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2611.14769": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2611.15049": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2611.17338": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2611.17460": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2611.21885": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://arxiv.org/abs/2611.24963": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://blog.claroc.io/ghostshares-grok-build-apps/": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://blog.claroc.io/ghostshares-muse-passive-dns/": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/": {
+  "code": "URLError",
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/": {
+  "code": "URLError",
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://botpress.com/blog/security-incident-disclosure-november-2026": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://casrai.org/news/fbi-artex-ai-attack-framework-warning-2026": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://china.kyodonews.net/articles/-/17140": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://clauday.com/zh/article/b40c6f1a-6cc5-40c5-9b17-b5c55e2fb6e3": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://cohere.com/blog/concerning-behaviour-popular-open-weight-ai-model": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://community.openai.com/t/gpt-6-2-astra-and-sol-are-now-available/1417531": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://crazycoderslab.com/?p=2027": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://cryptocortex-ai.com/news/f83e2385-1e83-43c9-9b33-276793511bc5": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model": {
+  "code": "URLError",
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://deepmind.google/blog/introducing-alphaproof-code/": {
+  "code": "URLError",
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://dig.watch/updates/ai-agents-hacker-1-200-websites-for-5000-usd": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://en.yna.co.kr/view/AEN20261026005800315": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://finance.eastmoney.com/a/202610093891331230.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://finance.eastmoney.com/a/202610243906818274.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://finance.sina.cn/2026-10-08/detail-iniunrrf7618741.d.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://finance.sina.com.cn/jjxw/2026-11-09/doc-iniyacyk6761136.shtml": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://finance.sina.com.cn/tech/digi/2026-10-13/doc-inivasef8111871.shtml": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://finance.sina.com.cn/tech/roll/2026-11-03/doc-inixkzym8904144.shtml": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://finance.sina.com.cn/tech/roll/2026-11-07/doc-inixwhse8296054.shtml": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://finance.sina.com.cn/wm/2026-10-08/doc-iniuphnz4397709.shtml": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://github.blog/changelog/2026-11-02-pull_request_target-blocked-by-default-december-2": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://github.com/deepseek-ai/DeepGEMM-Ascend": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://github.com/deepseek-ai/DeepInfer": {
+  "code": "URLError",
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://github.com/ggml-org/llama.cpp/releases/tag/v1.0.0": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://gxt.hunan.gov.cn/gxt/xxgk_71033/tzgg/202610/t20261030_34092024.html": {
+  "code": "URLError",
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://huggingface.co/Qwen/Qwen-Image-2.1-Turbo": {
+  "code": "URLError",
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://k.sina.com.cn/article_3949237910_eb64969600101gcxs.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://m.10jqka.com.cn/20261115/c681830592.shtml": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://m.21jingji.com/article/20261006/herald/7fc4bbf170a7866376c88120d635c69a.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://m.chinanews.com/wap/detail/chs/zw/jw693682.shtml": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://m.chinanews.com/wap/detail/cht/zw/jw692344.shtml": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://m.thepaper.cn/newsDetail_forward_34412840": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://metr.org/blog/2026-11-05-anthropic-ai-rd-acceleration-assessment": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://microsoft.ai/news/building-medical-superintelligence": {
+  "code": 403,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://modelscope.cn/models/Diffuspace/Clover-35B-A3B-Preview": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://new.qq.com/rain/a/20261008A039BK00": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://new.qq.com/rain/a/20261012A02KC700": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://new.qq.com/rain/a/20261012A02LSD00": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://new.qq.com/rain/a/20261111A03LE800": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://news.cctv.com/2026/11/05/ARTIJxA12vr3pHN1TfAxXc67261105.shtml": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://news.china.com/socialgd/10000169/20261112/49866548.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://news.haiwainet.cn/n/2026/1013/c3541093-32989782.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://news.metal.com/en/newscontent/104149446-smm-computing-power-daily-a100-monthly-rental-prices-catch-up-on-october-9-with-short-term-rental-premiums": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://news.qq.com/rain/a/20261006A0B49C00": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://news.qq.com/rain/a/20261015A0CHVT00": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://news.qq.com/rain/a/20261025A05CTT00": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://news.qq.com/rain/a/20261026A0DZA600": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://news.qq.com/rain/a/20261029A0EM3N00": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://news.qq.com/rain/a/20261030A001FD00": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://news.qq.com/rain/a/20261030A02MEL00": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://news.qq.com/rain/a/20261031A06GD600": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://news.qq.com/rain/a/20261113A030QR00": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://news.qq.com/rain/a/20261113A08D3B00": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://news.qq.com/rain/a/20261117A0CN0C00": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://news.qq.com/rain/a/20261119A0DC8H00": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://news.youth.cn/jsxw/202610/t20261027_16936358.htm": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://next.ithome.com/archiver/1/016/403.htm": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://officechai.com/ai/opencode-discloses-security-breach-says-attackers-may-have-accessed-users-openai-anthropic-and-google-api-keys/": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://openai.com/index/advancing-chip-design-with-our-models": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://openai.com/index/building-scientific-understanding-with-academic-communities/": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://openai.com/index/combatting-adversarial-distillation": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://openai.com/index/control-room": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://openai.com/index/introducing-chatgpt-wallet": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://openai.com/index/introducing-gpt-6-2-astra-sol": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://openai.com/index/step-toward-defining-the-standard-model": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://openai.com/zh-Hans-CN/index/gpt-6-for-everyone": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://openrouter.ai/stepfun/step-5-preview": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://original.ifeng.com/c/8yBPJsHiv0A": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://paper.cnstock.com/html/2026-10/17/content_2278474.htm": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://platform.openai.com/docs/pricing": {
+  "code": 403,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://politics.people.com.cn/n1/2026/1017/c1024-40816345.html": {
+  "code": "URLError",
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://reflection.ai/blog/introducing-beam": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://research.checkpoint.com/2026/16th-november-threat-intelligence-report": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://secnews.co.uk/2026/11/google-ai-agent-patches-into-exploits-no-human": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://securityonline.info/inc-ransomware-affiliates-ai-servers": {
+  "code": "URLError",
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks": {
+  "code": 403,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://siliconangle.com/2026/10/09/jev-creator-typesafe-closes-870m-round-at-7-5b-valuation/": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://stock.10jqka.com.cn/usstock/20261008/c680466284.shtml": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://tech.meituan.com/2026/11/02/Meituan-LongCat-2.5.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://thinkingmachines.ai/news/inkling-2-small/": {
+  "code": "URLError",
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://timesof.ai/2026/10/eu-ai-office-rfis-openai-anthropic-agent-escapes": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://tpsreport.news/news/atria-dawn-shanghai-ai-lab-512k-agentic-model": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://ua.news/cn/technologies/sud-u-ssha-zalishiv-pid-vartoiu-eksinzhenera-openai-alfozana-fortune": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://view.inews.qq.com/a/20261029A05LGE00": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://vuldb.com/cve/CVE-2026-115995": {
+  "code": 403,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://wap.miit.gov.cn/gzcy/yjzj/art/2026/art_ef16149bd27e4d7f95e5537e7dc68fdc.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://wpnews.pro/news/claude-deleted-a-law-professor-s-syllabus-and-a-year-of-notes-what-went-wrong": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.163.com/dy/article/L99FRHJU05568W0A.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.163.com/dy/article/L9CUPUTF05346RC6.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.163.com/dy/article/L9E4OB7A0511B8LM.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.163.com/dy/article/L9K6318205198NMR.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.163.com/dy/article/L9L3M2VS05527PMU.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.163.com/dy/article/L9MONQ1J0511D3QS.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.163.com/dy/article/LACK4OEC051288FS.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.163.com/dy/article/LAGSUESO05198UNI.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.163.com/dy/article/LAP6NM8A05198NMR.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.163.com/dy/article/LARQ8PG60511BLFD.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.163.com/dy/article/LAS5UUTM05198NMR.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.163.com/dy/article/LAUEKLBF0511CMF5.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.163.com/dy/article/LB174M0O05198NMR.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.163.com/dy/article/LB5A9JJO0511DSSR.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.163.com/dy/article/LBF4SF9705346RC6_pdya11y.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.163.com/dy/article/LBOG8DUK051288FS.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.163.com/dy/article/LC302RRE053469RG.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.163.com/dy/article/LC3H928A0514R9OJ.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.acronis.com/en/tru/posts/bossai-inside-the-ai-attack-mesh-that-targeted-taiwans-emergency-services/": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.agilityrobotics.com/content/agility-becomes-first-u-s-publicly-listed-pure-play-humanoid-robotics-company-begins-trading-today-on-nasdaq-as-aglt": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.aiimpacthub.com/ai-news/2026-10-12": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.alphaxiv.org/@zihao-wang-6": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.amazon.science/blog/can-we-change-an-ai-models-architecture-without-retraining-it-from-scratch": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.anthropic.com/news/2026-usage-policy-update": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.anthropic.com/research/provable-inference": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.arnica.io/blog/ai-coding-agents-security-benchmark": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.bloomberg.com/news/articles/2026-10-09/nvidia-backed-lumentum-sees-opto-parts-capacity-sold-out-to-2029": {
+  "code": "URLError",
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.bloomberg.com/news/articles/2026-10-21/ai-research-startup-flapping-airplanes-valued-at-6-billion-in-round": {
+  "code": "URLError",
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.ce.cn/xwzx/kj/202611/t20261104_3282496.shtml": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.cfi.net.cn/p20261101000202.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.chosun.com/english/national-en/2026/11/10/SAQJH2EHYZCYHB6ET4CLYEAVGU/": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.cnbc.com/2026/10/21/coreweaves-market-confidence-erodes-as-bond-yields-spike-stock-sinks.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.cnr.cn/hubei/tout/20261013/t20261013_527840272.shtml": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.cqcb.com/news/56/2026-10-30/6246510.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.csrc.gov.cn/chongqing/c101075/c7665855/content.shtml": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.csrc.gov.cn/csrc/c100028/c7671451/content.shtml": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.deai.org/news/runway-praxis-1-open-weights-robot-control": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.ft.com/content/7a3ad950-1b3b-4d9e-8c15-65a61ae6180f": {
+  "code": "URLError",
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.gelonghui.com/live/2698389": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.hn.chinanews.com.cn/news/szws/2026/1025/535380.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.ifnews.com/news.html?aid=877328": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.ilsole24ore.com/art/formazione-sanzioni-e-regulatory-sandbox-vigore-l-ultimo-dlgs-sull-ai-AJIlIFoB": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.legaldaily.com.cn/index/content/2026-10/27/content_9479091.html": {
+  "code": "URLError",
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.liquid.ai/blog/lfm3": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.meritalk.com/articles/dhs-orders-civilian-agencies-to-remove-deepseek-ai-products/": {
+  "code": 403,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.miit.gov.cn/zwgk/zcwj/wjfb/tz/art/2026/art_bc3e3e4c3fa84ca2a1c14ff1067ab844.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.morningstar.com/news/business-wire/20261012656385/characterai-initiates-voluntary-chapter-11-proceeding-to-facilitate-value-maximizing-sale-process": {
+  "code": 403,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.nfnews.com/content/EynGgOZM3Z.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.notebookcheck.net/Sweden-s-government-blocks-ChatGPT-and-Claude-keeps-Copilot.1433522.0.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.prnewswire.com/news-releases/institute-of-foundation-models-and-inception42-launch-jais-3-the-worlds-leading-arabic-native-ai-for-speech-writing-and-agents-302909754.html": {
+  "code": 403,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.qbitai.com/2026/10/504136.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.qbitai.com/2026/11/508607.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.qbitai.com/2026/11/508629.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.qbitai.com/2026/11/508996.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.qbitai.com/2026/11/509291.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.qbitai.com/2026/11/509796.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.qbitai.com/2026/11/510416.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.qbitai.com/2026/11/511570.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.qbitai.com/2026/11/511582.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.qbitai.com/2026/11/511679.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.qbitai.com/2026/11/511722.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.qbitai.com/2026/11/511727.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.qbitai.com/2026/11/511779.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.sd.news.cn/20261014/8a5fe0406ad94a5ca72c2d1b725ec21e/c.html": {
+  "code": "URLError",
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.secrss.com/articles/95358": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.secrss.com/articles/95535": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.sensetime.com/cn/news/sensenova-u1-pro-design-arena-20261119-1414": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.sfccn.com/2026/10-31/wOMDE0NzNfMjI4ODkwOQ.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.shicheng.news/v/vEzgZ": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.sohu.com/a/1061867001_114986": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.sophos.com/en-us/blog/ai-used-in-aur0ra-ransomware-testing-and-execution/": {
+  "code": "TimeoutError",
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.stdaily.com/web/gdxw/2026-10/12/content_594503.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.techtarget.com/cybersecurity/news/366652444/PHP2Shell-22M-exposed-servers-at-risk-as-emergency-patches-released": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-sues-openai-and-ceo-sam-altman-lying-users-and-harming-texans": {
+  "code": 403,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.thehindu.com/sci-tech/trai-proposes-board-approved-ai-policies-mandatory-reporting-of-serious-incidents-by-telcos/article71645192.ece/amp": {
+  "code": "URLError",
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.thepaper.cn/newsDetail_forward_34459172": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.theregister.com/ai-and-ml/2026/11/06/uk-ministers-seek-powers-to-investigate-when-ai-agents-are-let-off-the-leash/5307889": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.tomshardware.com/pc-components/gpus/chinese-ai-companies-buy-1-million-nvidia-gpus-in-a-single-year-report-claims-export-control-compliant-chips-flood-the-market-to-bridge-gap-in-compute-demand": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.toutiao.com/article/7522935443949761622/": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.toutiao.com/article/7695741508082778687/": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.toutiao.com/article/7696286715917271571/": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.toutiao.com/article/7697060782386741803/": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.toutiao.com/article/7698416587749016114/": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.toutiao.com/article/7703334424478237224/": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.toutiao.com/article/7703976979334283786/": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.unite.ai/united-airlines-bars-unauthorized-ai-agents-from-booking-travel": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.yahoo.com/news/politics/articles/exclusive-anthropic-breaches-spark-white-224721423.html": {
+  "code": 403,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.zaobao.com/news/singapore/story20261029-9910714": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://www.zaobao.com/news/world/story20261114-9998194": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://wztv.66wz.com/system/2026/10/17/105855506.shtml": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://xh.xhby.net/pad/con/202611/16/content_1606351.html": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ },
+ "https://ysxw.cctv.cn/article.html?toc_style_id=feeds_default&item_id=13621498755325567978&channelId=1119": {
+  "code": 200,
+  "checked_at": "2026-11-22T15:02:53"
+ }
+}
