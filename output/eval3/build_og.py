@@ -77,6 +77,18 @@ def main():
         cards.append({'id': c['id'], 'no': c['no'], 'head': c['head'],
                       'url': c.get('url') or '', 'vc': c['vc'], 'qual': q})
     os.makedirs(OUT, exist_ok=True)
+    # ★★ 效率:og:image 是整条自迭代里最慢的一步(playwright 画 270 张)。
+    #   ★ 卡集没变 ⇒ 图也没变 ⇒ 不画。★ 指纹 = 全部 (卡 id, 核验号, 限定词) 序列。
+    import hashlib as _h
+    _fp = _h.sha256('|'.join('%s:%s:%s' % (c.get('id'), c.get('no'), ','.join(c.get('qual') or [])) for c in CARDS).encode()).hexdigest()[:16]
+    _fpfile = os.path.join(HERE, 'og_fingerprint.txt')
+    try:
+        _old = open(_fpfile, encoding='utf-8').read().strip()
+    except Exception:
+        _old = ''
+    if _old == _fp and len([f for f in os.listdir(OUT) if f.endswith('.png')]) >= len(CARDS):
+        print('  · 卡集没变,og:image 跳过(省掉最慢的一步)')
+        return
     for f in os.listdir(OUT):
         if f.endswith('.png'):
             os.remove(os.path.join(OUT, f))
@@ -104,6 +116,8 @@ def main():
     asyncio.run(run())
     os.remove(hp)
     print('✓ %d 张 og:image → %s' % (len(cards), OUT))
+    with open(_fpfile, 'w', encoding='utf-8') as _f:
+        _f.write(_fp)
 
 
 if __name__ == '__main__':
