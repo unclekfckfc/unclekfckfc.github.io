@@ -1,5 +1,6 @@
 {
  "base": "https://unclekfckfc.github.io",
  "name": "有出处",
- "_note": "★ 「部署到哪」的唯一真源。★ 换落点只改这里,四个生成器都读它。"
+ "_note": "★ 「部署到哪」的唯一真源。★ base = 永久落点(canonical/og/feed 用它);★ share_base = 当前活的地址(分享图二维码用它)—— ★ Pages 还没内容时二维码不能指过去。",
+ "share_base": "https://ooa0a6r4td9vn.space.mcode.cn"
 }

@@ -45,6 +45,8 @@ function wrap(ctx,text,x,y,maxw,lh,maxl){
   lines.forEach((l,i)=>ctx.fillText(l,x,y+i*lh));
   return y+lines.length*lh;
 }
+function roundRect(ctx,x,y,w,h,r){ctx.beginPath();ctx.moveTo(x+r,y);ctx.arcTo(x+w,y,x+w,y+h,r);
+ ctx.arcTo(x+w,y+h,x,y+h,r);ctx.arcTo(x,y+h,x,y,r);ctx.arcTo(x,y,x+w,y,r);ctx.closePath();}
 function draw(cv,card,W,H){
   const c=card; const ctx=cv.getContext('2d'); const PAD=64; let y=PAD+6;
   ctx.fillStyle='#ffffff'; ctx.fillRect(0,0,W,H);
@@ -60,15 +62,35 @@ function draw(cv,card,W,H){
     ctx.fillText('〔'+c.tag+'〕',PAD,y); y+=40; }
   // 结论
   const okc = c.vc==='ok';
+  // ★ 核验章:形状 = 状态(方=核得住 / 三角=要盯 / 圆=查不了 / 虚线方=没核过)
+  const BS=36, bx=PAD, by2=y-26;
+  const vc=c.vc||'u';
+  if(vc==='ok'){ ctx.fillStyle='#1f6b52'; roundRect(ctx,bx,by2,BS,BS,8); ctx.fill();
+    ctx.strokeStyle='#fff'; ctx.lineWidth=3; ctx.lineCap='round'; ctx.lineJoin='round';
+    ctx.beginPath(); ctx.moveTo(bx+9,by2+18); ctx.lineTo(bx+15,by2+25); ctx.lineTo(bx+27,by2+11); ctx.stroke();
+  } else if(vc==='warn'){ ctx.fillStyle='#b03a2e';
+    ctx.beginPath(); ctx.moveTo(bx+BS/2,by2+1); ctx.lineTo(bx+BS-1,by2+BS-2); ctx.lineTo(bx+1,by2+BS-2); ctx.closePath(); ctx.fill();
+    ctx.strokeStyle='#fff'; ctx.lineWidth=3; ctx.lineCap='round';
+    ctx.beginPath(); ctx.moveTo(bx+BS/2,by2+11); ctx.lineTo(bx+BS/2,by2+23); ctx.stroke();
+    ctx.fillStyle='#fff'; ctx.beginPath(); ctx.arc(bx+BS/2,by2+29,2,0,7); ctx.fill();
+  } else if(vc==='x'){ ctx.strokeStyle='#8b959b'; ctx.lineWidth=2.4;
+    ctx.beginPath(); ctx.arc(bx+BS/2,by2+BS/2,BS/2-2,0,7); ctx.stroke();
+    ctx.fillStyle='#8b959b'; ctx.font='700 22px -apple-system,sans-serif'; ctx.textAlign='center';
+    ctx.fillText('?',bx+BS/2,by2+27); ctx.textAlign='left';
+  } else { ctx.strokeStyle='#a8b1b6'; ctx.lineWidth=2.2; ctx.setLineDash([5,4]);
+    roundRect(ctx,bx,by2,BS,BS,8); ctx.stroke(); ctx.setLineDash([]);
+    ctx.strokeStyle='#a8b1b6'; ctx.lineWidth=2.6; ctx.beginPath(); ctx.moveTo(bx+11,by2+BS/2); ctx.lineTo(bx+BS-11,by2+BS/2); ctx.stroke();
+  }
+  const tx=PAD+BS+14;
   ctx.fillStyle= okc?'#1f6b52':'#b03a2e'; ctx.font='700 30px -apple-system,"PingFang SC",sans-serif';
-  ctx.fillText(okc?('✓ 核得住 —— 这条里的每个数，出处正文里都能找到'):('⚠ '+c.vc_detail),PAD,y); y+=44;
+  ctx.fillText(okc?'核得住 —— 这条里的每个数，出处正文里都能找到':('要盯 —— '+c.vc_detail),tx,y); y+=44;
   if(!okc){
-    ctx.fillStyle='#8b938f'; ctx.font='400 20px -apple-system,"PingFang SC",sans-serif';
+    ctx.fillStyle='#6b7370'; ctx.font='400 20px -apple-system,"PingFang SC",sans-serif';
     ctx.fillText('「没找到」只说明正文里没找到这个写法，不等于出处里没有。',PAD,y); y+=34;
   }
   // ★ 限定词:和绿章同级 —— 「数字都对上」不等于「这话牢靠」
   if(c.qual && c.qual.length){
-    ctx.fillStyle='#a8551f'; ctx.font='600 24px -apple-system,"PingFang SC",sans-serif';
+    ctx.fillStyle='#b03a2e'; ctx.font='600 24px -apple-system,"PingFang SC",sans-serif';
     ctx.fillText('⚠ 原文自己写明：'+c.qual.join('、'),PAD,y); y+=38;
     ctx.fillStyle='#8b938f'; ctx.font='400 19px -apple-system,"PingFang SC",sans-serif';
     ctx.fillText('（数字对得上，但这话是限定过的 —— 见底稿里的口径说明）',PAD,y); y+=36;
@@ -80,8 +102,21 @@ function draw(cv,card,W,H){
     ctx.fillStyle='#48524f'; ctx.font='400 23px ui-monospace,Menlo,monospace';
     y=wrap(ctx,c.quote,PAD,y,W-PAD*2,36,4); y+=24;
   }
+  // ★ 口径说明:跟着数字一起存的东西 —— 填掉空白,也让人知道这条的数是怎么来的
+  if(c.nums && c.nums.length){
+    ctx.fillStyle='#6b7370'; ctx.font='600 20px -apple-system,"PingFang SC",sans-serif';
+    ctx.fillText('口径说明（跟着数字一起存的）',PAD,y); y+=32;
+    const show=c.nums.slice(0,3);
+    for(const nn of show){
+      ctx.fillStyle='#16191b'; ctx.font='600 21px ui-monospace,Menlo,monospace';
+      ctx.fillText(String(nn.n||''),PAD,y);
+      ctx.fillStyle='#6b7370'; ctx.font='400 19px -apple-system,"PingFang SC",sans-serif';
+      y=wrap(ctx,String(nn.d||''),PAD+220,y,W-PAD*2-220,28,2); y+=10;
+    }
+    y+=14;
+  }
   // 底部:号 + 二维码
-  const by=H-250;
+  const by=Math.max(y+70,H-250);   // ★ 内容短时别留 700px 空白
   ctx.fillStyle='#cfd6d2'; ctx.fillRect(PAD,by,W-PAD*2,2);
   const QS=150, qx=W-PAD-QS, qy=by+14;
   if(BASE){
@@ -91,7 +126,7 @@ function draw(cv,card,W,H){
     qr.addData(BASE+'/signals/id-'+String(c.id).padStart(4,'0')+'.html'); qr.make();
     const mn=qr.getModuleCount(), sc=Math.floor(QS/(mn+8)), sz=mn*sc;
     const ox=qx+Math.floor((QS-sz)/2), oy=qy+Math.floor((QS-sz)/2);
-    ctx.fillStyle='#ffffff'; ctx.fillRect(qx,qy,QS,QS); ctx.fillStyle='#14181a';
+    ctx.fillStyle='#ffffff'; ctx.fillRect(qx,qy,QS,QS); ctx.fillStyle='#16191b';
     for(let r=0;r<mn;r++)for(let k=0;k<mn;k++) if(qr.isDark(r,k)) ctx.fillRect(ox+k*sc,oy+r*sc,sc,sc);
   }
   ctx.fillStyle='#2f5d8c'; ctx.font='600 29px ui-monospace,Menlo,monospace';
@@ -112,7 +147,9 @@ render();
 
 def main():
     d = json.load(open(SRC, encoding='utf-8'))
-    cards = [c for c in d['cards'] if c['vc'] == 'ok']
+    # ★ 只画【核得住 且 原文有自述限定】的卡:★ 「限定词与章同级」是这个产品的主张,
+    #   ★ 一张看不出它被限定过的卡,分享出去是在削弱自己。★ ★★ 而无限定的卡留在站内底稿里,★ ★★ 不进传播面。
+    cards = [c for c in d['cards'] if c['vc'] == 'ok' and c.get('qual')]
     # ★ 限定词从主数据读(seed_cards.json 里那一份)—— 不在这里重算。
     #   (旧版这里有一份更宽松的正则,带着「宣称|仅有|投稿」三个在真语料上验过的假阳性词。)
     for c in cards:
@@ -127,7 +164,8 @@ def main():
     # ★ 落点从 site_config.json 读(唯一真源);没有则退回 SITE_BASE,再没有就不画二维码
     try:
         _cfg = json.load(open(os.path.join(HERE, 'site_config.json'), encoding='utf-8'))
-        _base = (_cfg.get('base') or '').strip().rstrip('/')
+        # ★ 二维码用 share_base(当前活的地址);★ canonical/og/feed 用 base(永久落点)。
+        _base = (_cfg.get('share_base') or '').strip().rstrip('/') or (_cfg.get('base') or '').strip().rstrip('/')
     except Exception:
         _base = ''
     _base = _base or (os.environ.get('SITE_BASE') or '').strip().rstrip('/')

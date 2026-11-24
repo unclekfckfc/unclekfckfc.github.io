@@ -89,6 +89,30 @@ def site_base():
     return (os.environ.get('SITE_BASE') or '').rstrip('/')
 
 
+def badge_svg(vc):
+    """★ 核验章 —— 四种形状 = 四种状态(《核验章·形态规范》的形状语言)
+    方=核得住 ✓ / 三角=要盯 △ / 圆=查不了 ? / 虚线方=没核过 ·"""
+    if vc == 'ok':
+        return ('<svg class="bg-svg" viewBox="0 0 24 24" aria-hidden="true">'
+                '<rect x="2" y="2" width="20" height="20" rx="4" fill="#1f6b52"/>'
+                '<path d="M7 12.4l3.2 3.2L17.2 8.6" fill="none" stroke="#fff" stroke-width="2.2" '
+                'stroke-linecap="round" stroke-linejoin="round"/></svg>')
+    if vc == 'warn':
+        return ('<svg class="bg-svg" viewBox="0 0 24 24" aria-hidden="true">'
+                '<path d="M12 2.2L23 21.4H1z" fill="#b03a2e"/>'
+                '<path d="M12 9v5.2" stroke="#fff" stroke-width="2" stroke-linecap="round"/>'
+                '<circle cx="12" cy="17.6" r="1.25" fill="#fff"/></svg>')
+    if vc == 'x':
+        return ('<svg class="bg-svg" viewBox="0 0 24 24" aria-hidden="true">'
+                '<circle cx="12" cy="12" r="10" fill="none" stroke="#8b959b" stroke-width="1.8"/>'
+                '<path d="M9.4 9.4a2.9 2.9 0 1 1 3.4 4.3" fill="none" stroke="#8b959b" stroke-width="1.8" '
+                'stroke-linecap="round"/><circle cx="11.7" cy="16.6" r="1.15" fill="#8b959b"/></svg>')
+    return ('<svg class="bg-svg" viewBox="0 0 24 24" aria-hidden="true">'
+            '<rect x="2" y="2" width="20" height="20" rx="4" fill="none" stroke="#a8b1b6" '
+            'stroke-width="1.6" stroke-dasharray="4 3"/>'
+            '<path d="M8 12h8" stroke="#a8b1b6" stroke-width="1.8" stroke-linecap="round"/></svg>')
+
+
 def card_html(c, og_base=''):
     vc = c['vc']
     label, cls = VC[vc]
@@ -99,7 +123,7 @@ def card_html(c, og_base=''):
         '<tr><td class="mono">%s</td><td>%s</td></tr>' % (esc(x['n']), esc(x['d'])) for x in n)
     qual_html = ''
     if q:
-        qual_html = ('<div class="qual"><b>⚠ 原文自己写明：%s</b>'
+        qual_html = ('<div class="qual"><b>原文自己写明</b> %s'
                      '<span>（数字对得上，但这话是限定过的 —— 见下面的口径说明）</span></div>'
                      % esc('、'.join(q)))
     # ★ JSON-LD:号 + 限定词 + 免码地址 + 四态 —— 这是"给 AI 读"的那一栏
@@ -157,6 +181,19 @@ h3{{font-size:14px;margin:0 0 10px;font-weight:700}}
 h3 .sub{{font-weight:400;color:var(--dim);font-size:12.5px}}
 .vc{{font-weight:700;font-size:16px}}
 .vc.ok{{color:var(--ok)}} .vc.warn{{color:var(--warn)}} .vc.none{{color:var(--dim)}}
+/* ★ 核验批注栏:章 + 结论 + 号 + 限定词,合成一行(取代原来两个大白框) */
+.verdict{{display:flex;gap:13px;align-items:flex-start;margin:0 0 20px;
+ padding:13px 15px;background:#fff;border:1px solid var(--line);border-left:3px solid var(--line);border-radius:8px}}
+.verdict .bg-svg{{width:30px;height:30px;flex:none;margin-top:1px}}
+.vtxt{{min-width:0;flex:1}}
+.vline{{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}}
+.vline b{{font-size:16px;font-weight:600}}
+.vline b.ok{{color:var(--ok)}} .vline b.warn{{color:var(--warn)}} .vline b.none{{color:var(--dim)}}
+.vno{{font-family:ui-monospace,Menlo,monospace;font-size:12.5px;color:#2f5d8c}}
+.verdict .vcnote{{margin:3px 0 0;font-size:13px;color:var(--dim)}}
+.verdict .qual{{background:none;border-left:0;padding:6px 0 0;margin:0;font-size:13px;color:#8d3b31}}
+.verdict .qual b{{color:#b03a2e;font-weight:600;margin-right:6px}}
+.verdict .qual span{{display:inline;color:#9a6b62;font-size:12.5px;margin-left:6px}}
 .vc.none .sym{{color:var(--dim)}}
 .vcnote{{font-size:13px;color:var(--dim);margin:4px 0 0}}
 .qual{{background:rgba(176,58,46,.045);border-left:3px solid var(--warn);
@@ -191,12 +228,15 @@ a{{color:#2a4a6b}}
 </style></head><body><div class="wrap">
 <p class="back"><a href="../index.html">← {site}</a></p>
 <h1>{title}</h1>
-<p class="meta">{tag} · {date} · 分类 {cat} · 号 <span class="no">bg.{no}</span></p>
-<div class="box {cls}">
-  <div class="vc {cls}"><span class="sym">{sym}</span>{label}</div>
-  <p class="vcnote">{vcnote}</p>
+<p class="meta">{tag} · {date} · 分类 {cat}</p>
+<div class="verdict">
+  {badge}
+  <div class="vtxt">
+    <div class="vline"><b class="{cls}">{label}</b><span class="vno">bg.{no}</span></div>
+    <p class="vcnote">{vcnote}</p>
+    {qual}
+  </div>
 </div>
-{qual}
 {deadnote}
 <div class="blk"><h3>逐字原文 <span class="sub">（引用者抄的这段，不是我改写的）</span></h3>
 <div class="qt">{quote}<span class="qm">↑ 原文里被引用的就是这一句;完整原文在下面「出处」。</span></div></div>
@@ -238,6 +278,7 @@ document.getElementById('rcpt').onclick=function(){{
         no=esc(c['no']), tag=esc(c.get('tag') or ''), date=esc(c.get('day') or ''),
         cat=esc(c.get('cat') or ''), label=esc(label), cls=cls, vcnote=esc(VC_LONG[vc]),
         qual=qual_html, quote=esc(c.get('quote') or '（无）'), key=esc(c.get('key') or ''),
+        badge=badge_svg(vc),
         deadnote=dead_note(c),
         sym=SYM.get(vc, '·'),
         src=esc(src), link=('<a href="%s" target="_blank" rel="noopener">%s</a>' % (esc(c['url']), esc(c['url']))) if c.get('url') else '（无）',
