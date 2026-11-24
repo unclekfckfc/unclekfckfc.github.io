@@ -232,6 +232,11 @@ def check():
             for fn in files:
                 if not fn.endswith(('.md', '.html', '.py', '.json')):
                     continue
+                # ★ 临时文件(以下划线开头:连接器 args / 快照 / 中间态)不是文档 ——
+                #   ★ 2026-11-24 实测:一个 804KB 的 _push.json 被当成"写死的过期数字"扫出来,
+                #   ★ 假警报把真问题(上游 +10 条没核)掩盖了。★★
+                if fn.startswith('_'):
+                    continue
                 p = os.path.join(root, fn)
                 ap = os.path.abspath(p)
                 if any(ap.startswith(x) for x in EXCLUDE_PREFIX):
