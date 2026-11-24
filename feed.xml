@@ -6,76 +6,76 @@
 <description>每天一期:原文自己写明了限定、最容易被当成事实转述出去的消息。附核验号与出处。</description>
 <language>zh-cn</language>
 <atom:link href="https://unclekfckfc.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-<lastBuildDate>Tue, 24 Nov 2026 13:00:34 +0000</lastBuildDate>
+<lastBuildDate>Tue, 24 Nov 2026 14:14:19 +0000</lastBuildDate>
 <item>
 <title>第 001 期 · 非文本决策模型 Jev 母公司 TypeSafe 完成 8.7 亿美元 A 轮，估值 75 亿美元——距发布不足一月</title>
 <link>https://unclekfckfc.github.io/signals/id-0059.html</link>
 <guid isPermaLink="false">issue-001-23449af0</guid>
 <description>第 001 期 · 核验号 bg.23449af0 · 限定词:团队自报 · 核验结论:核得住。TypeSafe Inc., the creator of the Jev artificial intelligence model, today announced that it has raised $870 million in funding at a $7.5 billion valuation.</description>
-<pubDate>Tue, 24 Nov 2026 13:00:34 +0000</pubDate>
+<pubDate>Tue, 24 Nov 2026 14:14:19 +0000</pubDate>
 </item>
 <item>
 <title>第 002 期 · Cloudflare 开放多模态评分模型 Clef-omni 权重</title>
 <link>https://unclekfckfc.github.io/signals/id-0064.html</link>
 <guid isPermaLink="false">issue-002-f7cdf7e3</guid>
 <description>第 002 期 · 核验号 bg.f7cdf7e3 · 限定词:团队自报 · 核验结论:核得住。It is built on Qwen3-Omni-30B-A3B, with speech-generation components removed. Cloudflare reports scoring a 21-second video with sound in about 1.5 seconds.</description>
-<pubDate>Tue, 24 Nov 2026 13:00:34 +0000</pubDate>
+<pubDate>Tue, 24 Nov 2026 14:14:19 +0000</pubDate>
 </item>
 <item>
 <title>第 003 期 · 84 项任务实测：通用智能体离真机器人有多远</title>
 <link>https://unclekfckfc.github.io/signals/id-0078.html</link>
 <guid isPermaLink="false">issue-003-74133227</guid>
 <description>第 003 期 · 核验号 bg.74133227 · 限定词:团队自报 · 核验结论:有出入，要盯。RobotWorld 将机器人作为通用多模态智能体可以调用的工具,在仿真环境中设置了 84 项任务,覆盖操作、移动操作、运动、驾驶和飞行五个领域,涉及机械臂、人形机器人、四足机器人、车辆和无人机等八类形态。</description>
-<pubDate>Tue, 24 Nov 2026 13:00:34 +0000</pubDate>
+<pubDate>Tue, 24 Nov 2026 14:14:19 +0000</pubDate>
 </item>
 <item>
 <title>第 004 期 · 「渝车出海」AI 通关：申报 1 天缩至 30 分钟，企业自述效率 48 倍</title>
 <link>https://unclekfckfc.github.io/signals/id-0083.html</link>
 <guid isPermaLink="false">issue-004-77b9ad5a</guid>
 <description>第 004 期 · 核验号 bg.77b9ad5a · 限定词:团队自报 · 核验结论:有出入，要盯。多模感知大模型的落地应用,使得通关申报时间从一天缩短至半小时,通关效率提升48倍</description>
-<pubDate>Tue, 24 Nov 2026 13:00:34 +0000</pubDate>
+<pubDate>Tue, 24 Nov 2026 14:14:19 +0000</pubDate>
 </item>
 <item>
 <title>第 005 期 · Arnica 基准：AI 编程模型 47% 安全决策出错，加规则降至 17%</title>
 <link>https://unclekfckfc.github.io/signals/id-0084.html</link>
 <guid isPermaLink="false">issue-005-ac9197e8</guid>
 <description>第 005 期 · 核验号 bg.ac9197e8 · 限定词:团队自报 · 核验结论:核得住。they got 47% of security decisions in new code wrong. With Arnica&#x27;s agentic rules active, that rate dropped to 17%, a 2.7x reduction in errors</description>
-<pubDate>Tue, 24 Nov 2026 13:00:34 +0000</pubDate>
+<pubDate>Tue, 24 Nov 2026 14:14:19 +0000</pubDate>
 </item>
 <item>
 <title>第 006 期 · 据报道 Anthropic 向美国国会推介前沿 AI 监管法案草案：损失超 10 亿美元或 50 人死伤方可叫停模型</title>
 <link>https://unclekfckfc.github.io/signals/id-0090.html</link>
 <guid isPermaLink="false">issue-006-9b1780d1</guid>
 <description>第 006 期 · 核验号 bg.9b1780d1 · 限定词:口径不一致 · 核验结论:核得住。该法案体现了 Anthropic 在《先进人工智能框架》中提出的核心方案，我们自 6 月起就一直在向联邦及各州立法者游说推介</description>
-<pubDate>Tue, 24 Nov 2026 13:00:34 +0000</pubDate>
+<pubDate>Tue, 24 Nov 2026 14:14:19 +0000</pubDate>
 </item>
 <item>
 <title>第 007 期 · 阿拉伯语原生六档开源模型 Jais 3 发布，最大 375B</title>
 <link>https://unclekfckfc.github.io/signals/id-0093.html</link>
 <guid isPermaLink="false">issue-007-28ddfee1</guid>
 <description>第 007 期 · 核验号 bg.28ddfee1 · 限定词:团队自报 · 核验结论:有出入，要盯。The new fleet pairs six open language models, from 900 million to 375 billion parameters, with Jais Speech, a speech recognition model for Arabic and its dialects.</description>
-<pubDate>Tue, 24 Nov 2026 13:00:34 +0000</pubDate>
+<pubDate>Tue, 24 Nov 2026 14:14:19 +0000</pubDate>
 </item>
 <item>
 <title>第 008 期 · DeepSeek 新版登顶 Code Arena 开源第一：成本约竞品 1/10</title>
 <link>https://unclekfckfc.github.io/signals/id-0097.html</link>
 <guid isPermaLink="false">issue-008-4d7e795f</guid>
 <description>第 008 期 · 核验号 bg.4d7e795f · 限定词:团队自报 · 核验结论:查不了。It showed the new DeepSeek build scoring 1670 points on Code Arena WebDev. That score puts it at #1 among open models and #12 overall.</description>
-<pubDate>Tue, 24 Nov 2026 13:00:34 +0000</pubDate>
+<pubDate>Tue, 24 Nov 2026 14:14:19 +0000</pubDate>
 </item>
 <item>
 <title>第 009 期 · OpenCode 官方确认入侵：1.4% Console 用户的 API 密钥或已暴露</title>
 <link>https://unclekfckfc.github.io/signals/id-0099.html</link>
 <guid isPermaLink="false">issue-009-4cb89eb8</guid>
 <description>第 009 期 · 核验号 bg.4cb89eb8 · 限定词:团队自报 · 核验结论:有出入，要盯。We had a security breach last night related to a large scale distillation attack that impacted 1.4% of OpenCode Console users</description>
-<pubDate>Tue, 24 Nov 2026 13:00:34 +0000</pubDate>
+<pubDate>Tue, 24 Nov 2026 14:14:19 +0000</pubDate>
 </item>
 <item>
 <title>第 010 期 · 奇瑞全球创新大会发布汽车垂域大模型，墨甲机器人已上百场景上岗</title>
 <link>https://unclekfckfc.github.io/signals/id-0102.html</link>
 <guid isPermaLink="false">issue-010-ba6c90ff</guid>
 <description>第 010 期 · 核验号 bg.ba6c90ff · 限定词:团队自报 · 核验结论:核得住。“墨甲机器人”已在教育医疗等100多个场景实现常态化上岗,其首款消费级家庭陪伴人形机器人“墨宝”迎来全球首发并开启全球预订。</description>
-<pubDate>Tue, 24 Nov 2026 13:00:34 +0000</pubDate>
+<pubDate>Tue, 24 Nov 2026 14:14:19 +0000</pubDate>
 </item>
 </channel>
 </rss>
