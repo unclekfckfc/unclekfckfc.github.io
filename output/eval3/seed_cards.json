@@ -1,7 +1,359 @@
 {
- "built_at": "2026-11-22 07:30",
- "n": 270,
+ "built_at": "2026-11-24 07:30",
+ "n": 280,
  "cards": [
+  {
+   "id": 282,
+   "no": "59549a8d",
+   "url": "https://openai.com/index/introducing-shirudo",
+   "head": "OpenAI×思科开源 Shirudo：AI 生成临时防护，拦漏洞利用免重启",
+   "quote": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+   "tag": "防御工具·开源",
+   "cat": "safety",
+   "stamp": "ok",
+   "stamp_text": "一手或多源印证 ✓",
+   "src": "SIGNAL · OpenAI 官方博客与 GitHub 仓库 · OpenAI 与思科开源 Linux 运行时防护 Shirudo（BSD-2）：基于 eBPF 给运行中服务挂临时防护拦截漏洞利用、无需重启、操作员批准后生效；受控测试中 Codex 生成的防护拦下针对 Elasticsearch 的 Java4Shell 利用",
+   "key": "AI 把漏洞发现提速后，补丁部署成了新瓶颈——让模型现写临时缓解，是把攻防时间差往回拉的一步。",
+   "nums": [
+    {
+     "n": "免重启",
+     "d": "拦截利用期间服务不中断（受控测试口径）"
+    },
+    {
+     "n": "BSD-2-Clause",
+     "d": "主体代码开源许可证"
+    },
+    {
+     "n": "Java4Shell",
+     "d": "受控测试中被拦截的漏洞利用，目标 Elasticsearch"
+    }
+   ],
+   "vc": "warn",
+   "vc_detail": "抓到出处正文，但 1 个数字没找到",
+   "bad": [
+    "BSD-2-Clause"
+   ],
+   "n_total": 3,
+   "qual": [],
+   "site_url": "https://ai-subject-universe.app.workbuddy.host/signals/id-0282.html?sharecode=LA4PX3544L"
+  },
+  {
+   "id": 281,
+   "no": "c2232db1",
+   "url": "https://openai.com/index/perplexity-and-intelligence",
+   "head": "OpenAI 首席科学家公开训练曲线，提议全行业共同发展上限",
+   "quote": "How perplexity measures progress in AI models, and why it could help developers establish a shared approach to evaluating emerging capabilities.",
+   "tag": "治理·自我限速",
+   "cat": "policy",
+   "stamp": "ok",
+   "stamp_text": "一手或多源印证 ✓",
+   "src": "SIGNAL · OpenAI 官方博客《Perplexity and Intelligence》（经界面新闻、腾讯研究院速递转述）· 首席科学家 Jakub Pachocki 公开内部预测损失测量，提议以困惑度等共同指标设定行业发展上限，并提出第三方审计参与执行",
+   "key": "跑得最快的人提议给全行业装限速器——无论出于审慎还是锁定优势，实验室自我治理先于立法出现，值得记入监管前史。",
+   "nums": [
+    {
+     "n": "0.986→0.761",
+     "d": "对数困惑度：GPT-3.5 → GPT-6.2 Astra（据腾讯研究院速递引官方文章）"
+    },
+    {
+     "n": "0.68-0.70",
+     "d": "推测将现更多重大新能力的区间，系预测非安全红线"
+    },
+    {
+     "n": "2027",
+     "d": "最早推动预训练基础性突破的推测年份"
+    }
+   ],
+   "vc": "warn",
+   "vc_detail": "抓到出处正文，但 1 个数字没找到",
+   "bad": [
+    "0.986→0.761"
+   ],
+   "n_total": 3,
+   "qual": [],
+   "site_url": "https://ai-subject-universe.app.workbuddy.host/signals/id-0281.html?sharecode=LA4PX3544L"
+  },
+  {
+   "id": 280,
+   "no": "65aa6212",
+   "url": "https://weibo.com/1840271251/5368297789064236",
+   "head": "面壁 MiniCPM-8B 成老挝国家模型，接入政务通讯 G-Chat v2",
+   "quote": "面壁智能的MiniCPM8B成为老挝的国家模型,已接入老挝政府推出的G-Chatv2通讯应用",
+   "tag": "非大厂·端侧出海",
+   "cat": "app",
+   "stamp": "ok",
+   "stamp_text": "一手或多源印证 ✓",
+   "src": "SIGNAL · 面壁智能官方动态与 IT时代网报道 · MiniCPM 8B 接入老挝政府通讯应用 G-Chat v2，成为老挝国家模型；官方称老挝语翻译基准超 GPT-4o（厂商口径）、系列累计下载超 7000 万（厂商口径）",
+   "key": "国家级订单拼的不是榜单，是主权和账单：数据不出境、断网能跑、单次成本近零。小模型竞争从参数换成「被装进谁的日常系统」。",
+   "nums": [
+    {
+     "n": "8B",
+     "d": "模型参数规模，端侧可离线部署"
+    },
+    {
+     "n": "7000万+",
+     "d": "MiniCPM 系列累计下载，厂商自报含重复拉取"
+    },
+    {
+     "n": "超GPT-4o",
+     "d": "老挝语翻译国际基准，厂商口径，未见独立第三方评测"
+    }
+   ],
+   "vc": "x",
+   "vc_detail": "只抓到空壳页（正文没拿到）",
+   "bad": [],
+   "n_total": 0,
+   "qual": [
+    "团队自报",
+    "无独立复测"
+   ],
+   "site_url": "https://ai-subject-universe.app.workbuddy.host/signals/id-0280.html?sharecode=LA4PX3544L"
+  },
+  {
+   "id": 279,
+   "no": "4135ca57",
+   "url": "https://www.cnr.cn/tech/techph/20261123/t20261123_527881016.shtml",
+   "head": "自变量发布 WALL-OSS-1.0：零样本进头部物流分拣产线，约 10 小时数据上岗",
+   "quote": "在开放式真机任务中,WALL-OSS-1.0面对全新从未见过的任务,成功率达到55.1%",
+   "tag": "非大厂·具身落地",
+   "cat": "app",
+   "stamp": "ok",
+   "stamp_text": "一手或多源印证 ✓",
+   "src": "SIGNAL · 自变量机器人官方博客（经央广网、南方+报道）· 具身基础模型 WALL-OSS-1.0 发布，312 项开放式真机任务零样本成功率 55.1%，已进入国内头部物流企业分拣产线，约 10 小时产线数据即可上岗",
+   "key": "具身模型离产线又近一步：预训练直接上岗、迁移保九成。但 55.1%、70.8% 全部出自公司口径，真考场是下一条产线的复购。",
+   "nums": [
+    {
+     "n": "55.1%",
+     "d": "312 项开放式真机任务零样本成功率（公司口径）"
+    },
+    {
+     "n": "1101/1500",
+     "d": "ManipArena 真机评测得分，比微调后 π0.5 高 70.8%（公司口径）"
+    },
+    {
+     "n": "10小时vs1000小时",
+     "d": "产线上手所需工序数据量：有预训练 vs 无预训练（公司口径）"
+    }
+   ],
+   "vc": "warn",
+   "vc_detail": "抓到出处正文，但 1 个数字没找到",
+   "bad": [
+    "1101/1500"
+   ],
+   "n_total": 3,
+   "qual": [],
+   "site_url": "https://ai-subject-universe.app.workbuddy.host/signals/id-0279.html?sharecode=LA4PX3544L"
+  },
+  {
+   "id": 278,
+   "no": "cbd9ea23",
+   "url": "https://i.ifeng.com/c/8yHlUYtz4dG",
+   "head": "智谱发布首个循环 Transformer 旗舰 GLM-5.4：28 层两轮循环、参数不变，官方称智能达 2–3T 级，权重计划开源",
+   "quote": "GLM-5.4对GLM-5基座中的28层做两轮循环。",
+   "tag": "真突破·新架构",
+   "cat": "corp",
+   "stamp": "ok",
+   "stamp_text": "一手或多源印证 ✓",
+   "src": "SIGNAL · 智谱官方博客（经凤凰网科技、证券时报报道）· 智谱发布 GLM-5.4，首个 Loop Transformer 旗舰，对基座 28 层做两轮循环；即日向 GLM Coding Plan 用户开放，API 待安全评估、权重计划开源",
+   "key": "参数军备赛里少见的省法——用计算深度换参数规模。30B 到 750B 逐级验证的谨慎值得记一分，但「2–3T 级」是自报，等权重开源再验。",
+   "nums": [
+    {
+     "n": "28层两轮循环",
+     "d": "对 GLM-5 基座 28 层做两轮循环，参数量不变"
+    },
+    {
+     "n": "约10%",
+     "d": "30B 同参数对比中 Loop 版整体训练计算量仅增约 10%（官方实验）"
+    },
+    {
+     "n": "-10%~-14%",
+     "d": "GPQA、MMLU-Pro 等基准平均输出长度下降幅度（官方实验）"
+    },
+    {
+     "n": "2-3T级",
+     "d": "官方自报智能水平，非第三方评测"
+    }
+   ],
+   "vc": "x",
+   "vc_detail": "只抓到空壳页（正文没拿到）",
+   "bad": [],
+   "n_total": 0,
+   "qual": [
+    "团队自报"
+   ],
+   "site_url": "https://ai-subject-universe.app.workbuddy.host/signals/id-0278.html?sharecode=LA4PX3544L"
+  },
+  {
+   "id": 277,
+   "no": "a47fe90f",
+   "url": "https://www.caixin.com/2026-11-19/102506633.html",
+   "head": "DeepSeek约1000亿二轮融资落地",
+   "quote": "公司注册资本由1644.75万元增加至1991.87万元,增幅21.1%。此外,杭州程砚企业管理咨询合伙企业(下称\"杭州程砚\")新增为公司股东,持股比例约17.27%。",
+   "tag": "融资资本",
+   "cat": "cap",
+   "stamp": "ok",
+   "stamp_text": "一手或多源印证 ✓",
+   "src": "SIGNAL · 财新网（工商信息核查）· DeepSeek 第二轮外部融资完成：工商变更 11-17 落定，31 家新外部出资方经持股平台杭州程砚合计持股约 17.27%，腾讯系与宁德时代系并列第一大出资人，为科创板 IPO 铺路；融资规模约 1000 亿元系财新报道口径，公司未官方确认",
+   "key": "两轮合计约 1500 亿元、出资与表决权分离——资本用最笨的方式买最贵的确定性：不投票也要上船。为科创板 IPO 铺路，头部实验室正式进公开市场定价时代。",
+   "nums": [
+    {
+     "n": "约 1000 亿元",
+     "d": "财新报道口径的第二轮外部融资规模（约 $15B），公司未官方确认"
+    },
+    {
+     "n": "17.27%",
+     "d": "31 家新外部出资方经持股平台合计持股（工商变更 11-17 完成）"
+    },
+    {
+     "n": "9.5653%",
+     "d": "腾讯系与宁德时代系并列第一大出资人（平台内比例）"
+    }
+   ],
+   "vc": "warn",
+   "vc_detail": "抓到出处正文，但 2 个数字没找到",
+   "bad": [
+    "约 1000 亿元",
+    "9.5653%"
+   ],
+   "n_total": 3,
+   "qual": [],
+   "site_url": "https://ai-subject-universe.app.workbuddy.host/signals/id-0277.html?sharecode=LA4PX3544L"
+  },
+  {
+   "id": 276,
+   "no": "44d73d29",
+   "url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+   "head": "TML开源循环Transformer笔记本可跑",
+   "quote": "Inkling 2 Mini leads every open-weights model with less than 100B total parameters on benchmarks such as DeepSWE v1.1 (48.2%) and Vals Index v2.2 (46.5%).",
+   "tag": "开源动态",
+   "cat": "oss",
+   "stamp": "ok",
+   "stamp_text": "一手或多源印证 ✓",
+   "src": "SIGNAL · Thinking Machines Lab 官方博客 · 开源 Inkling 2 Mini 循环 Transformer 权重（Apache 2.0）：26.4B 总参/3.4B 激活，中间 12 层共享权重跑三次，约 20GB 单检查点、32GB 内存 Mac 笔记本可本地跑，1M token 上下文；官方自报 DeepSWE v1.1 48.2% 居同量级开源首位（厂商自报未第三方复现）",
+   "key": "循环不是省钱是换账：把推理从写出来的思维链挪进网络内部，token 少了、可读的推理也少了——官方自己测了「可监控性」。本地跑 26B 是真的，跑分是自报的。",
+   "nums": [
+    {
+     "n": "26.4B / 3.4B",
+     "d": "总参数/每 token 激活参数；循环三次后每 token 有效激活 5.4B"
+    },
+    {
+     "n": "约 20GB",
+     "d": "单检查点体积，官方支持 32GB 内存 Mac 本地推理，Apache 2.0"
+    },
+    {
+     "n": "DeepSWE 48.2%",
+     "d": "官方自报口径，第三方未复现已标注"
+    }
+   ],
+   "vc": "ok",
+   "vc_detail": "抓到出处正文，每个数字都找得到",
+   "bad": [],
+   "n_total": 3,
+   "qual": [
+    "团队自报"
+   ],
+   "site_url": "https://ai-subject-universe.app.workbuddy.host/signals/id-0276.html?sharecode=LA4PX3544L"
+  },
+  {
+   "id": 275,
+   "no": "8e863b0d",
+   "url": "https://metr.org/blog/2026-11-20-q4-2026-capability-update",
+   "head": "METR：AI任务时长每约3.61个月翻倍",
+   "quote": "Across TH1.1 and TH2 we find that capabilities are doubling roughly every 3.6 months",
+   "tag": "研究与评测",
+   "cat": "research",
+   "stamp": "ok",
+   "stamp_text": "一手或多源印证 ✓",
+   "src": "SIGNAL · METR 官方博客（Q4 能力更新）· TH1.1+TH2 合并评测：前沿模型 50% 成功率任务时长约每 3.61 个月翻倍，可验证任务最高约 27 小时，覆盖至 Opus 5.5 与 GPT-6 Astra；但无明确反馈的开放任务上模型判断力仍逊人类专家，模型裁判会给同级更强模型打高分",
+   "key": "曲线还在陡，但 METR 自己补了半句：没有明确反馈的开放任务上，模型判断力不如人类专家。能干多久在翻倍，干得好不好没跟上——瓶颈正从能力搬到监督。",
+   "nums": [
+    {
+     "n": "3.61 个月",
+     "d": "50% 成功率任务时长翻倍周期（95% CI 2.08–4.94 个月）"
+    },
+    {
+     "n": "约 27 小时",
+     "d": "可验证任务上的最高人类等效任务时长"
+    },
+    {
+     "n": "15 个检查点",
+     "d": "覆盖 GPT-4o 至 Claude Opus 5.5 与 GPT-6 Astra 等公开模型"
+    }
+   ],
+   "vc": "ok",
+   "vc_detail": "抓到出处正文，每个数字都找得到",
+   "bad": [],
+   "n_total": 3,
+   "qual": [],
+   "site_url": "https://ai-subject-universe.app.workbuddy.host/signals/id-0275.html?sharecode=LA4PX3544L"
+  },
+  {
+   "id": 274,
+   "no": "260bb0dc",
+   "url": "https://www.freebuf.com/articles/ai-security/513931.html",
+   "head": "AI智能体11分钟自挖零日拿下服务器root",
+   "quote": "今年9月的一轮入侵活动持续约48小时,其中AI Agent仅用11分钟就完成了应用接口测绘,获得向服务器写入文件的能力。",
+   "tag": "安全与事故",
+   "cat": "safety",
+   "stamp": "ok",
+   "stamp_text": "一手或多源印证 ✓",
+   "src": "SIGNAL · Amazon Threat Intelligence（AWS Security Blog，CISO CJ Moses）· 开源渗透框架 Cairn 的自主智能体仅被下达「拿到 shell」目标，约 11 分钟从 API 测绘到任意文件写入，自挖 MONAI Label 路径遍历零日（GHSA-qc22-rmgc-vg94）并植 root 反向 shell；官方原文境外，链接为 FreeBuf 中文转述",
+   "key": "三个词的任务书换回一台 root 服务器，攻击者没有教一步。11 分钟自挖零日，补丁走上安装源用了 73 天——机器速进攻对人工速防守，差值就在这。",
+   "nums": [
+    {
+     "n": "11 分钟",
+     "d": "从 API 测绘到任意文件写入，全程无人工分步指令"
+    },
+    {
+     "n": "约 48 小时",
+     "d": "9 月 8 日起针对东亚高校（中国大陆以外）的入侵活动窗口"
+    },
+    {
+     "n": "中等置信度",
+     "d": "Amazon 归因「中国关联」仅中等置信度，未指名组织"
+    },
+    {
+     "n": "73 天",
+     "d": "漏洞从被发现（9-10）到补丁版 0.8.6 上架安装源（11-22）的窗口"
+    }
+   ],
+   "vc": "x",
+   "vc_detail": "只抓到空壳页（正文没拿到）",
+   "bad": [],
+   "n_total": 0,
+   "qual": [],
+   "site_url": "https://ai-subject-universe.app.workbuddy.host/signals/id-0274.html?sharecode=LA4PX3544L"
+  },
+  {
+   "id": 273,
+   "no": "e9b51a6b",
+   "url": "https://www.court.gov.cn/zixun/xiangqing/518131.html",
+   "head": "最高法为 AI 辅助审判划界",
+   "quote": "必须坚持法官主导、技术辅助的定位；必须把提高审判质量、让人民群众感受到公平正义作为首要价值取向，决不能片面追求效率",
+   "tag": "政策监管",
+   "cat": "policy",
+   "stamp": "ok",
+   "stamp_text": "一手或多源印证 ✓",
+   "src": "SIGNAL · 最高人民法院官网通稿 · 最高法连开两场座谈会就《关于规范人工智能辅助审判工作的意见》征求意见，明确辅助审判应用坚持法官主导、技术辅助定位，依托法院「一张网」内网闭环运行、用权威规范语料训练，已试点至部分中级、基层法院",
+   "key": "司法是容错率最低的场景，红线画在「法官主导」四个字上——AI 出错可以重跑，判决出错没有撤销键。内网闭环加权威语料训练，等于把幻觉风险当系统风险管。",
+   "nums": [
+    {
+     "n": "2 场",
+     "d": "最高法连开两场征求意见座谈会，院长张军主持"
+    },
+    {
+     "n": "部分中基层法院",
+     "d": "辅助审判应用已依托「一张网」在部分中级、基层法院试点应用"
+    }
+   ],
+   "vc": "warn",
+   "vc_detail": "抓到出处正文，但 1 个数字没找到",
+   "bad": [
+    "2 场"
+   ],
+   "n_total": 2,
+   "qual": [],
+   "site_url": "https://ai-subject-universe.app.workbuddy.host/signals/id-0273.html?sharecode=LA4PX3544L"
+  },
   {
    "id": 272,
    "no": "67fd10a6",
